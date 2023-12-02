@@ -5,6 +5,8 @@ The data set contains patient records from a 1984-1989 trial conducted by the Ge
 The Rotterdam dataset contains information about patients with node-positive breast cancer. It includes variables such as hormone receptor status, tumor size, lymph node involvement, histological grade, HER2 status, Ki-67 index, and treatment response, among others. The GBSG dataset serves as a validation dataset for the model developed using the Rotterdam dataset. In this context, the GBSG dataset would include similar prognostic variables for patients with node-positive breast cancer, and it is likely that this dataset was not used in the training phase of the model.
 
 In summary, the paper by Royston and Altman follows a common approach in predictive modeling by using one dataset for model development (Rotterdam) and another for validation (GBSG).
+
+
 FEATURES:
 
 •	pid (patient identifier):
