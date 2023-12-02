@@ -6,29 +6,39 @@ The Rotterdam dataset contains information about patients with node-positive bre
 
 In summary, the paper by Royston and Altman follows a common approach in predictive modeling by using one dataset for model development (Rotterdam) and another for validation (GBSG).
 FEATURES:
+
 •	pid (patient identifier):
 This column likely serves as a unique identifier for each patient in the dataset. It is used to distinguish between individual records.
+
 •	age (age, years):
 Represents the age of the patient in years at the time of data collection. Age is often a significant factor in cancer prognosis.
+
 •	meno (menopausal status):
 A binary variable indicating the menopausal status of the patient.
 0 = premenopausal
 1 = postmenopausal
+
 •	size (tumor size, mm):
 Provides information about the size of the tumor in millimeters. grade (tumor grade):
 Describes the grade or level of differentiation of the tumor cells
+
 •	nodes (number of positive lymph nodes):
 Indicates the number of lymph nodes with cancer involvement. 
+
 •	pgr (progesterone receptors):
 Represents the concentration of progesterone receptors in femtomoles per liter (fmol/l).
+
 •	er (estrogen receptors):
 Represents the concentration of estrogen receptors in femtomoles per liter (fmol/l). 
+
 •	hormon (hormonal therapy):
 A binary variable indicating whether the patient received hormonal therapy.
 0 = no
 1 = yes
+
 •	rfstime (recurrence-free survival time):
 Represents the time in days to the first occurrence of either recurrence, death, or the last follow-up. 
+
 •	status:
 A binary variable indicating the patient's status.
 0 = alive without recurrence
